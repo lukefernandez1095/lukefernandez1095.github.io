@@ -1,0 +1,117 @@
+body { /** selector **/
+	background-color: white;
+}
+
+#container { /** # is a ID selector **/
+	width: 900px;
+	height: 750px;
+	background-color: white;
+	margin:auto; /** generate space around elements **/ 
+} 
+
+header { 
+	width: 900px;
+	height: 50px;
+	background-color: white;
+	}
+
+
+nav {
+	text-align: center;
+	width: 800px;
+	height: 50px;
+	float: left;
+	
+}
+
+
+li {
+	display: inline;
+	color: white;
+	margin: 45px;
+	font-family: Helvetica; 
+	color: white;
+	font-weight: bold; /** font thickness **/ 
+}
+
+a:link {
+    text-decoration: none; /** underline **/
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}	
+
+#intro{
+	width: 900px;
+	height: 200px;
+	background-color: white;
+}
+
+#intro p {
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 65px;
+	margin-right: 40px;
+}
+
+
+#aboutme {
+	width: 900px;
+	height: 1000px;
+	background-color: white;
+}
+
+#aboutme p {
+	font-family: Helvetica;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 65px;
+	margin-right: 40px;
+
+}
+
+
+
+h1 {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+
+p {
+	font-family: Helvetica;
+	color: black;
+	text-align: justify;
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 65px;
+	margin-right: 40px;
+}
+
+
+
+footer {
+	width: 900px;
+	height: 50px;
+	background-color: white;
+	float: left;
+	font-family: Helvetica;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 10px; 
+	padding-top: 20px; 
+}
+
+

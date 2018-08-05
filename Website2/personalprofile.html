@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Student Website</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+	
+<body>
+<div id="container"> 
+
+<header>
+
+<nav>	
+	<ul>					
+		<li><a href="luke.html">HOME</a></li>					
+		<li><a href="job.html">IDEAL JOB</a></li>	
+		<li><a href="project.html">PROJECT</a></li>	
+		<li><a href="personalprofile.html">PERSONAL PROFILE</a></li>		
+	</ul>		
+</nav>
+</header>
+		
+		
+<h1> Personal Profile </h1>
+		
+<h1> 16 Personalities (Myer-Briggs Test) </h1> 
+<a href="https://www.16personalities.com/infp-personality">Myer-Briggs Test Result</a><br><br>
+
+
+
+
+<section id="slide">
+
+<h1> Learning Style (EducationPlanner.Org) </h1>
+
+<br>
+
+<img class="slides1" src="images/educationplanner1.jpg" width="800" height="400">
+<img class="slides1" src="images/educationplanner2.jpg" width="800" height="400">
+
+<button class="button1 left" onclick="plusDivs1(-1)">&#10094;</button>
+<button class="button1 right" onclick="plusDivs1(+1)">&#10095;</button>
+<a href="http://www.educationplanner.org/students/self-assessments/learning-styles-quiz.shtml?event=results&A=7&V=6&T=7">Learning Test</a>
+
+
+<script>
+var slideIndex = 1;
+showDivs1(slideIndex);
+
+function plusDivs1(n) {
+    showDivs1(slideIndex += n);
+}
+
+function showDivs1(n) {
+    var i;
+    var x = document.getElementsByClassName("slides1");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+</script>
+
+</section>
+
+
+<section id="slide2">
+<h1> Big Five Personality Test </h1>
+<br>
+
+
+<img class="slides2" src="images/ptest1.jpg" width="800" height="400"/>
+<img class="slides2" src="images/ptest2.jpg" width="800" height="400"/>
+<img class="slides2" src="images/ptest3.jpg" width="800" height="400"/>
+<img class="slides2" src="images/ptest4.jpg" width="800" height="400"/>
+
+<button class="button2 left" onclick="plusDivs2(-1)">&#10094;</button>
+<button class="button2 right" onclick="plusDivs2(+1)">&#10095;</button>
+<a href="https://www.truity.com/personality-test/8807/test-results/6151613">Personality Test</a>
+
+<script>
+
+var slideIndex = 1;
+showDivs2(slideIndex);
+
+function plusDivs2(n) {
+    showDivs2(slideIndex += n);
+}
+
+function showDivs2(n) {
+    var i;
+    var x = document.getElementsByClassName("slides2");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+</script>
+</section>
+
+
+<h1> What do the results of these tests mean for me? </h1>
+<p>
+	The three tests revealed a lot regarding my personality that was scarily accurate and my learning style as well as suggestions on the best ways for my learning to type to best learn. 
+	This means I should definitely change my style of learning since the test revealed that I learn best by touching and doing, a more �hands-on� learner which now that I reflect back is actually quite true and makes sense as I always excelled when I would practice what I learn instead of just watching it being taught and not trying out. 
+	Furthermore, the personality tests were a real eye opener especially the Myer-Briggs personality test as it revealed how my personality type strengths and weakness, how my romantic relationships would be as well as my potential career path and workplace habit. 
+	Since I know now how my personality would be, I can act accordingly and change some habits that would not be good in the work place as well work on the weaknesses of my personality type.  
+</p>
+
+<h1> How would these results influence my behavior in a team? </h1>
+<p>
+	In a team, I would be very passionate and energetic about my work especially if it allows my creativity and imagination to be unleashed. 
+	I would go all in, dedicate my time, energy and thoughts to a project. 
+	Furthermore, I would be 100% dedicated to a project. 
+	I would be the creative outlet in the team and see things from unconventional perspective. 
+	No idea is too crazy. I would be a shy person and would not want to be at the center of attention but would be always ready to help anyone in need. 
+	I would also be the open-minded and flexible one and would give the benefit of the doubt to my team mates and would also support others� action if I think it�s right. 
+	However, rules would be a problem as my personality type does not like to be constrained by them.
+</p>
+
+<h1> How should I take this into account when forming a team? </h1>
+<p>
+	When forming a team, I would look for the same attributes in my team mates and not people that are dictators. 
+	People who are also passionate and hardworking would be a major bonus to me. 
+	I value hard work and dedication above talent. 
+	Furthermore, when forming a team, I believe it is a must for my team mates to be open-minded as well and listen to all ideas presented before making a decision as anyone could have a game changing idea. 
+	I would also like people who are focused and are able not to get side tracked as I know my personality type and speaking from experience that I get easily side track and dislike dealing with data, numbers. 
+	I get lost in the big picture that I forget the small stuff that make up that picture. 
+	Group mates that are able to bring me back down or handle that would be a welcomed addition.
+</p>
+
+<footer>
+	Luke Fernandez s00000@student.rmit.edu.au
+</footer>
+	
+</div>
+</body>
+</html>
